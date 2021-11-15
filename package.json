@@ -1,0 +1,20 @@
+{
+    "name": "slam-jam",
+    "version": "1.0.0",
+    "description": "Slam Jam's official website",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "author": "Rotem Kincaid",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12"
+    },
+    "devDependencies": {
+        "concurrently": "^6.4.0",
+        "nodemon": "^2.0.15"
+    }
+}
