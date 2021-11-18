@@ -1,26 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav>
-            <h1>
+        <nav className="nav-container">
+            <h1 className="logo">
                 <Link to="/">
                 <i>Slam Jam Logo </i>
                 </Link>
             </h1>
-            <ul>
+            <div className="nav">
                 <Link to="/about">
-                    <li>About</li>
+                    <h1>About</h1>
                 </Link>
                 <Link to="/gallery">
-                    <li>Gallery</li>
+                    <h1>Gallery</h1>
                 </Link>
                 <Link to="/contact">
-                    <li>Contact</li>
+                    <h1>Contact</h1>
                 </Link>
-            </ul>
-            
+            </div>
         </nav>
     )
 }
