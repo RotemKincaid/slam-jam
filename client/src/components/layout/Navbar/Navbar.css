@@ -1,8 +1,7 @@
 .nav-container {
   width: 100vw;
   height: 120px;
-  background-color: black;
-  opacity: 0.4;
+  background-color: rgba(247, 243, 243, 0.479);
   position: fixed;
   display: flex;
   align-items: center;
@@ -15,4 +14,20 @@
   align-items: center;
   justify-content: space-between;
   margin-right: 100px;
+}
+
+.nav-title {
+  color: #1b1a1a;
+  z-index: 2;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.nav-title:hover {
+  color: rgb(3, 46, 141);
+}
+
+.logo {
+  height: 250px;
 }

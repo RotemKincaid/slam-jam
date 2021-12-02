@@ -5,6 +5,7 @@ import Navbar from './components/layout/Navbar/Navbar'
 import About from './components/About'
 import Gallery from './components/Gallery/index'
 import Contact from './components/Contact/index'
+import FooterIndex from './components/layout/Footer/Index';
 import './App.css';
 
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/gallery" element={ <Gallery /> } />
         <Route path="/contact" element={ <Contact /> } />
       </Routes>
+    <FooterIndex />
     </Fragment>
     </Router>
   );

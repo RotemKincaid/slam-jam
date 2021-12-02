@@ -1,0 +1,10 @@
+.countdown-container {
+  margin-top: 50px;
+}
+
+.countdown-clock {
+  display: flex;
+  color: #fcba08;
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+}
