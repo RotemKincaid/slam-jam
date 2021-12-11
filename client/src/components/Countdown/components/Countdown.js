@@ -1,58 +1,5 @@
-// import React from 'react'
-// import DateCountdown from 'react-date-countdown-timer'
-// // import { showRemaining } from '../../../utilities/countdown'
-import './Countdown.css'
-
-// const Countdown = () => {
-//     // const countyCount = setInterval(() => {
-//     //     let timeLeft = countdown(new Date(2020, 4, 28));
-//     //     this.setState({
-//     //        timeLeft: timeLeft.toString()
-//     //     })
-//     //  }, 1000)
-   
-//     const [counter, setCounter] = React.useState(60);
-
-//   // First Attempts
-//   // setInterval(() => setCounter(counter - 1), 1000);
-
-//   // Second Attempts
-//   // React.useEffect(() => {
-//   //   counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
-//   // }, []);
-
-//   // Second Attempts - Inspection
-//   // React.useEffect(() => {
-//   //   counter > 0 &&
-//   //     setInterval(() => {
-//   //       console.log(counter);
-//   //       setCounter(counter - 1);
-//   //     }, 1000);
-//   // }, []);
-
-//   // Third Attempts
-//   // React.useEffect(() => {
-//   //   const timer =
-//   //     counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
-//   //   return () => clearInterval(timer);
-//   // }, [counter]);
-
-//   // Suggested by Laurent
-//   React.useEffect(() => {
-//     counter > 0 && setTimeout(() => setCounter(counter - 1), 1000);
-//   }, [counter]);
-//   return (
-//     <div>
-//          {/* <DateCountdown dateTo='February 03, 2022 00:00:00 GMT+03:00' callback={()=>alert('Hello')}  /> */}
-//         {/* Countdown: {counter} */}
-//     </div>
-// )
-// }
-
-// export default Countdown
-
-
 import React from "react";
+import './Countdown.css'
 
 class Countdown extends React.Component {
     constructor(props) {
