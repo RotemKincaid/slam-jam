@@ -1,7 +1,7 @@
 .landing-container {
   background-image: url("../../../assetts/images/music-show2.jpg");
   width: 100vw;
-  height: 130vh;
+  height: 120vh;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -9,11 +9,25 @@
   flex-direction: column;
 }
 
+.headings {
+  width: 1200px;
+  padding-left: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 .title {
-  width: 80%;
+  /* width: 80%; */
   color: #ffffff;
   font-size: 80px;
   font-family: "Montserrat Alternates", sans-serif;
   text-transform: capitalize;
-  padding-left: 40px;
+}
+
+.location-date {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
 }

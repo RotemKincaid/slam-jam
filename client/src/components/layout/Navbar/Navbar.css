@@ -1,6 +1,6 @@
 .nav-container {
   width: 100vw;
-  height: 120px;
+  height: 110px;
   background-color: rgba(247, 243, 243, 0.479);
   position: fixed;
   display: flex;
@@ -30,4 +30,5 @@
 
 .logo {
   height: 250px;
+  margin-top: 5px;
 }

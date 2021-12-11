@@ -1,0 +1,25 @@
+.countdown-container {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.clock {
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  display: flex;
+  color: #fcba08;
+  font-size: 90px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 22px;
+}
