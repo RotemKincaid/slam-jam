@@ -25,7 +25,7 @@ const Navbar = () => {
                     <h1 className="nav-title">Sponsors</h1>
                 </Link>
                 <div>
-                    <button>Tickets</button>
+                    <button className="tix-btn">Tickets</button>
                 </div>
             </div>
         </nav>

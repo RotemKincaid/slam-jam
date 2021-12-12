@@ -32,3 +32,17 @@
   height: 250px;
   margin-top: 5px;
 }
+
+.tix-btn {
+  background-color: rgb(243, 195, 36);
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  color: #080808;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 2px rgb(36, 36, 35);
+}

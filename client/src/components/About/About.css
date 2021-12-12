@@ -1,5 +1,52 @@
 .about-container {
   width: 100vw;
-  height: 120vh;
+  height: 360vh;
   background-color: #000011;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.slam-img {
+  width: 400px;
+}
+
+.inner-container {
+  position: relative;
+  top: 5%;
+  height: 90%;
+}
+
+.about-title {
+  color: white;
+  font-size: 30px;
+  padding: 40px 0;
+}
+
+.img-text {
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: 400px;
+  color: white;
+  padding-left: 30px;
+}
+
+.sigal-img {
+  width: 250px;
+}
+
+.koby-img {
+  height: 270px;
+}
+
+.name {
+  color: rgb(243, 195, 36);
+  font-size: 24px;
+  padding: 30px 0;
+  text-align: center;
 }
