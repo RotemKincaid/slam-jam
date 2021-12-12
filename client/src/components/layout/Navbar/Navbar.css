@@ -2,14 +2,14 @@
   width: 100vw;
   height: 110px;
   background-color: rgba(247, 243, 243, 0.479);
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .nav {
-  width: 550px;
+  width: 650px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +20,7 @@
   color: #1b1a1a;
   z-index: 2;
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 

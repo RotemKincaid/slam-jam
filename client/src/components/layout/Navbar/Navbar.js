@@ -21,6 +21,12 @@ const Navbar = () => {
                 <Link to="/contact">
                     <h1 className="nav-title">Contact</h1>
                 </Link>
+                <Link to="/sponsors">
+                    <h1 className="nav-title">Sponsors</h1>
+                </Link>
+                <div>
+                    <button>Tickets</button>
+                </div>
             </div>
         </nav>
     )

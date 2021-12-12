@@ -1,8 +1,9 @@
 import React from "react";
+import './index.css'
 
 const ContactIndex = () => {
     return (
-        <div>Contact Index</div>
+        <div className="contact-container">Contact Index</div>
     )
 }
 

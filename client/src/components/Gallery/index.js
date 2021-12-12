@@ -1,8 +1,9 @@
 import React from "react";
+import './index.css'
 
 const GalleryIndex = () => {
     return (
-        <div>
+        <div className="gallery-container">
             Gallery Index
         </div>
     )

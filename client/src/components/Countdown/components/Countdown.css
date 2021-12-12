@@ -5,7 +5,6 @@
 }
 
 .clock {
-  font-family: "Montserrat", sans-serif;
   width: 150px;
   display: flex;
   flex-direction: column;
@@ -14,12 +13,14 @@
 }
 
 .number {
+  font-family: "Montserrat Alternates", sans-serif;
   display: flex;
   color: #fcba08;
-  font-size: 90px;
+  font-size: 100px;
 }
 
 .text {
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 22px;
 }
