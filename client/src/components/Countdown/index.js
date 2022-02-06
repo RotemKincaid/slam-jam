@@ -6,7 +6,7 @@ import Countdown from './components/Countdown'
       super(props);
       this.state = {
         events:[
-          { name:'Slam Jam', date:'February 3, 2022' },
+          { name:'Slam Jam', date:'March 10, 2022' },
         ]
       };
     }

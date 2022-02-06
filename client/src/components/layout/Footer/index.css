@@ -1,4 +1,24 @@
 .footer-wrapper {
   height: 120px;
   background-color: #383636;
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.facebook,
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.follow {
+  color: #fff;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.facebook img {
+  height: 50px;
 }

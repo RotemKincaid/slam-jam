@@ -25,7 +25,9 @@ const Navbar = () => {
                     <h1 className="nav-title">Sponsors</h1>
                 </Link>
                 <div>
-                    <button className="tix-btn">Tickets</button>
+                    <a href="https://www.eventbrite.com/e/slam-jam-3-an-annual-israeliamerican-talent-show-tickets-229032050027">
+                      <button className="tix-btn">Tickets</button>
+                    </a>
                 </div>
             </div>
         </nav>

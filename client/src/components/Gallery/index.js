@@ -1,5 +1,6 @@
 import React from "react";
 import './index.css'
+const AWS = require('aws-sdk');
 
 const GalleryIndex = () => {
     return (

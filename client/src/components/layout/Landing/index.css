@@ -1,12 +1,13 @@
 .landing-container {
   background-image: url("../../../assetts/images/music-show2.jpg");
   width: 100vw;
-  height: 120vh;
+  height: 150vh;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: inset 0 0 0 2000px rgba(25, 0, 255, 0.514);
 }
 
 .headings {
@@ -22,12 +23,14 @@
   /* width: 80%; */
   color: #ffffff;
   font-size: 80px;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
+  text-shadow: 2px 2px #e08104;
 }
 
 .location-date {
-  color: #ffffff;
+  color: #f3ba6f;
+  text-shadow: 1px 1px rgb(61, 61, 61);
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
 }

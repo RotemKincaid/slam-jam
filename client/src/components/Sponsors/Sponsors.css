@@ -1,5 +1,20 @@
 .sponsors-container {
+  box-sizing: content-box;
   width: 100vw;
   height: 120vh;
   background-color: #000011;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  height: 80px;
+}
+
+.sponsor {
+  width: 350px;
+  height: 100px;
+  display: flex;
 }

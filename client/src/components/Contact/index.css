@@ -2,4 +2,28 @@
   width: 100vw;
   height: 120vh;
   background-color: #000011;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  padding-top: 320px;
+  width: 75vw;
+  height: 800px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.795);
+  border: 1px solid #f0bb98;
+  /* box-shadow: white 7px 3px 3px; */
+}
+
+textarea {
+  width: 200px;
+  height: 80px;
 }
